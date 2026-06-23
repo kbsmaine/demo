@@ -1,7 +1,7 @@
 const CONFIG = {
-  company: 'KBS Commercial Demolition',
-  phoneDisplay: '(207) 555-0124',
-  phoneHref: 'tel:+12075550124',
+  company: 'KBS Demolition',
+  phoneDisplay: '(207) 590-3771',
+  phoneHref: 'tel:+12075903771',
   email: 'krpelletier33@gmail.com'
 };
 
