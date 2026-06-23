@@ -89,3 +89,6 @@ Both forms now submit directly to **krpelletier33@gmail.com** through FormSubmit
 4. Future submissions from both forms will be delivered to that inbox.
 
 The forms are static-site friendly and do not require a separate server or paid form account.
+
+## Theme update
+The site accent color has been updated from yellow to a dark professional blue. The primary accent is set in `assets/css/site.css` as `--signal:#1f4f75`.
