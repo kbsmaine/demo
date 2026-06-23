@@ -77,3 +77,15 @@ For GitHub Pages: upload the full contents of this folder to the repository root
 - Replace all image placeholders
 - Add real licenses, certifications, service area, and business hours
 - Add a privacy policy if you use a third-party form service
+
+
+## Live quote and contact forms
+
+Both forms now submit directly to **krpelletier33@gmail.com** through FormSubmit.
+
+1. Upload the site to your host before testing.
+2. Submit either form once from the live site.
+3. FormSubmit will send an activation email to **krpelletier33@gmail.com**. Open it and click the activation link.
+4. Future submissions from both forms will be delivered to that inbox.
+
+The forms are static-site friendly and do not require a separate server or paid form account.
