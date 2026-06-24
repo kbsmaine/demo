@@ -73,7 +73,15 @@ For GitHub Pages: upload the full contents of this folder to the repository root
 
 ## Final publish checklist
 - Replace demo phone number and email
-- Activate the quote form by submitting one test request and clicking the confirmation email sent to kev1quebec@yahoo.com
+- Connect the quote form endpoint
 - Replace all image placeholders
 - Add real licenses, certifications, service area, and business hours
 - Add a privacy policy if you use a third-party form service
+
+
+## Quote form and thank-you page
+The quote form submits to FormSubmit and is configured to redirect successful submissions back to `thank-you.html` on the same deployed website.
+
+Before visitors use the form, publish the site and submit one test request yourself. FormSubmit will send an activation message to `kev1quebec@yahoo.com`; activate it once. After activation, successful quote requests are sent to that inbox and visitors land on your KBS thank-you page.
+
+Do not test FormSubmit by double-clicking `quote.html` from your computer. The form must be tested on the live website because FormSubmit requires a web server and an absolute redirect URL.

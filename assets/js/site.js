@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-email]').forEach(el => { el.textContent = CONFIG.email; el.href = `mailto:${CONFIG.email}`; });
   document.querySelectorAll('img[data-fallback]').forEach(img => img.addEventListener('error', () => { img.src = img.dataset.fallback; }));
 
+
+  // Keep successful quote submissions on this website instead of FormSubmit's default page.
+  document.querySelectorAll('[data-formsubmit-next]').forEach(field => {
+    const current = new URL(window.location.href);
+    const basePath = current.pathname.replace(/[^/]*$/, '');
+    field.value = `${current.origin}${basePath}thank-you.html`;
+  });
+
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.nav-links');
   if (toggle && nav) {
