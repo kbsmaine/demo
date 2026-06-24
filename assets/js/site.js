@@ -2,7 +2,7 @@ const CONFIG = {
   company: 'KBS Demolition',
   phoneDisplay: '(207) 590-3771',
   phoneHref: 'tel:+12075903771',
-  email: 'krpelletier33@gmail.com'
+  email: 'kev1quebec@yahoo.com'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
