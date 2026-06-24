@@ -1,5 +1,5 @@
 from pathlib import Path
-root=Path('/mnt/data/kbs-demolition-website')
+root=Path(__file__).resolve().parents[2]
 
 def nav(active):
     links=[('Home','index.html','home'),('Services','services.html','services'),('Projects','projects.html','projects'),('Safety','safety.html','safety'),('About','about.html','about'),('Contact','contact.html','contact')]
