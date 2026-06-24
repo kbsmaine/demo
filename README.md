@@ -73,7 +73,7 @@ For GitHub Pages: upload the full contents of this folder to the repository root
 
 ## Final publish checklist
 - Replace demo phone number and email
-- Connect the quote form endpoint
+- Activate the quote form by submitting one test request and clicking the confirmation email sent to kev1quebec@yahoo.com
 - Replace all image placeholders
 - Add real licenses, certifications, service area, and business hours
 - Add a privacy policy if you use a third-party form service
