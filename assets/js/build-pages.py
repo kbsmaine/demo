@@ -1,3 +1,6 @@
+# NOTE: The published HTML pages in the site root have been formatted for direct editing.
+# This legacy generator writes compact pages, so do not run it after editing the HTML files.
+
 from pathlib import Path
 root=Path(__file__).resolve().parents[2]
 

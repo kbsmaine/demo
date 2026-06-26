@@ -85,3 +85,9 @@ The quote form submits to FormSubmit and is configured to redirect successful su
 Before visitors use the form, publish the site and submit one test request yourself. FormSubmit will send an activation message to `kev1quebec@yahoo.com`; activate it once. After activation, successful quote requests are sent to that inbox and visitors land on your KBS thank-you page.
 
 Do not test FormSubmit by double-clicking `quote.html` from your computer. The form must be tested on the live website because FormSubmit requires a web server and an absolute redirect URL.
+
+## Editing the site
+
+All website pages and the stylesheet are formatted with normal indentation. Edit the root HTML files directly (`index.html`, `projects.html`, `services.html`, etc.).
+
+`assets/js/build-pages.py` is an older full-site generator. Do not run it after making direct edits unless you intentionally want to rebuild and overwrite the HTML pages.
